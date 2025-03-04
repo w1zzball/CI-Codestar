@@ -46,6 +46,7 @@ def post_detail(request, slug):
             )
 
     comment_form = CommentForm()
+    print('rendering post_detail.html'),
 
     return render(
         request,
